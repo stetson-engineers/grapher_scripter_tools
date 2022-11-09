@@ -67,7 +67,6 @@ Function Export_8p5x11_pdf_with_date(directory As String, short_filename As Stri
 	file.Close()
 End Function
 
-
 ' Iterate through folder, and run actions
 Sub UpdateFolder(folderPath As String, Grapher As Object)
    Dim filename As String
@@ -95,11 +94,9 @@ Sub Main
 	'Start Grapher
 	Set Grapher = CreateObject("Grapher.Application")
 
+	' Hide Grapher while operating 
+	' Leaving application visible will rapidly open/close items
 	Grapher.Visible = False
-
-	Dim vaMyArray
-	Dim directory
-	Dim iii As Long
 
 	Dim spreadsheet_dir
 	
