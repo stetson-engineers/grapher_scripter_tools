@@ -37,7 +37,15 @@ rather images should be inserted into the file as Image Metafiles.
 
 ### Usage - Update_Grapher_Results.BAS
 With the default settings, this will go through and generate Vector PDFs for each .grf file in 
-the directory it is in.  Commented out code also includes support for generating PNG images.
+the directory it is in. 
+
+By default this supports vector PDFs in letter size (8.5 inches x 11 inches).
+
+Commented out code also includes support for:
+- Ledger size (11 in x 17 in) vector PDF
+- PNG images
+
+Also commented out code provides example of text that would provide auto-timestamp.
 
 ### Usage - Update_Grapher_figure_numbers.BAS
 With the default settings, this will go through and modify the figure number text
