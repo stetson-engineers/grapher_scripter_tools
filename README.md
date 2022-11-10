@@ -7,7 +7,7 @@ Tools for bulk editing and updating Grapher™ files and generating resulting pr
 
 These are scripts for automating common updates related to creating and modifying graph figures through the [Grapher™](https://www.goldensoftware.com/products/grapher) program.
 
-Included here are scripts for doing common bulk updates.  Example use case: Data in some spreadsheet is updated. This allows for regenerating a series of PDFs descended from that, assuming no changes to the Grapher file (.grf) are needed.  Another common task is that figures need to be renumbered both in the file name and on the figure (which can be time intensive), included is a script that bulk updates figure text.
+Included here are scripts for doing common bulk updates.  Example use case: Data in some spreadsheet is updated. This allows for regenerating a series of PDFs descended from that, assuming no changes to the Grapher™ file (.grf) are needed.  Another common task is that figures need to be renumbered both in the file name and on the figure (which can be time intensive), included is a script that bulk updates figure text.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -22,12 +22,12 @@ Operating System is expected to be Windows. However, no other library requiremen
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-General usage on these scripts is to place it in the directory with grapher files (.grf) in question, 
-and then execute through the Scripter interface.  Scripter should open up Grapher then iterate through 
+General usage on these scripts is to place it in the directory with Grapher™ files (.grf) in question, 
+and then execute through the Scripter interface.  Scripter should open up Grapher™ then iterate through 
 all of the grapher files in the directory and execute the requested commmand.
 
 *Warning* 
-Grapher files are in some ways like a HTML file in that they are a description of 
+Grapher™ files (.grf) are in some ways like a HTML file in that they are a description of 
 how data (and sometimes images) should be displayed, however acutal data, etc. exist in other linked 
 files (e.g. Microsoft Excel files).  Depending on how things are organized, these linked files could 
 be located anywhere (even on different volumes).
@@ -53,7 +53,7 @@ Also commented out code provides example of text that would provide auto-timesta
 With the default settings, this will go through and modify the figure number text
 so that it matches the filename of the file.  Makes it easier to reorder a series of files.
 
-To work, the figure text must be in a specific location (`file.Shapes.Item(1).Shapes.Item(5)`) in Grapher "Object Manager".  Grapher counts from the bottom up, so it must be in a group located at the bottom (item 1), and it must be the 5th item from the bottom in that group (item 5).
+To work, the figure text must be in a specific location (`file.Shapes.Item(1).Shapes.Item(5)`) in Grapher "Object Manager".  Grapher™ counts from the bottom up, so it must be in a group located at the bottom (item 1), and it must be the 5th item from the bottom in that group (item 5).
 
 *Note* some of the PDF tools are designed to add the figure text automatically.
 
