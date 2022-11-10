@@ -1,11 +1,13 @@
 # grapher_scripter_tools
- Editing and updating Grapher™ files and products.
+Tools for bulk editing and updating Grapher™ files and generating resulting products.
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-These are scripts for automating common updates related to creating and modifying graph figures through the Grapher™ program.
+These are scripts for automating common updates related to creating and modifying graph figures through the [Grapher™](https://www.goldensoftware.com/products/grapher) program.
+
+Included here are scripts for doing common bulk updates.  Example use case is data in some spreadsheet is updated, this allows for regenerating all the PDFs descended from that.  Another common item is that figures need to be renumbered both in the file name and on the figure (which can be time intensive), included is a script that bulk updates figure text.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
