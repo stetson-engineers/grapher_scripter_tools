@@ -7,7 +7,7 @@ Tools for bulk editing and updating Grapher™ files and generating resulting pr
 
 These are scripts for automating common updates related to creating and modifying graph figures through the [Grapher™](https://www.goldensoftware.com/products/grapher) program.
 
-Included here are scripts for doing common bulk updates.  Example use case is data in some spreadsheet is updated, this allows for regenerating all the PDFs descended from that.  Another common item is that figures need to be renumbered both in the file name and on the figure (which can be time intensive), included is a script that bulk updates figure text.
+Included here are scripts for doing common bulk updates.  Example use case: Data in some spreadsheet is updated. This allows for regenerating a series of PDFs descended from that, assuming no changes to the Grapher file (.grf) are needed.  Another common task is that figures need to be renumbered both in the file name and on the figure (which can be time intensive), included is a script that bulk updates figure text.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
