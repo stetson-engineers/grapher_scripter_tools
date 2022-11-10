@@ -11,7 +11,7 @@ These are scripts for automating common updates related to creating and modifyin
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To use, Golden Software's [Grapher™](https://www.goldensoftware.com/products/grapher) installation is required. Grapher™ comes with an included script execution/automation platform "Scripter".  This is also required and may require some addtional configuration to set up.
+To use, Golden Software's [Grapher™](https://www.goldensoftware.com/products/grapher) installation is required. Grapher™ comes with an included script execution/automation platform "Scripter".  This is also required and may require some additional configuration to set up.
 
 Operating System is expected to be Windows. However, no other library requirements are currently identified.
 
